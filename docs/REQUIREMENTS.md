@@ -1,34 +1,23 @@
-REQUIREMENTS
-------------
-
-*												*
-*												*
-*		THIS IS WORK IN PROGRESS DOCUMENT		*
-*												*
-*												*
+#Initial Requirements
 
 
-LIGHT CONTROL
--------------
+##LIGHT CONTROL
 * Unlimited led Channels
 * Simulate sunrise/setset
 * Simulate moon-cycle
 
 
-PUMP CONTROL
-------------
+##PUMP CONTROL
 * DC pump control
 * Control TUNZE?
 * Control vortech?
 
 
-TEMPERATURE CONTROL
--------------------
+##TEMPERATURE CONTROL
 * Control Chiller / Heaters / Fans
 
 
-DATA LOGGING
-------------
+##DATA LOGGING
 * TEMP
 * PH
 * ORP
