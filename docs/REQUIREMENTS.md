@@ -1,24 +1,21 @@
-#Initial Requirements
+## Initial Requirements
 
 
-##LIGHT CONTROL
+### Lighting Control
 * Unlimited led Channels
 * Simulate sunrise/setset
 * Simulate moon-cycle
 
-
-##PUMP CONTROL
+### Pump Control
 * DC pump control
 * Control TUNZE?
 * Control vortech?
 
-
-##TEMPERATURE CONTROL
+### Temperature Control
 * Control Chiller / Heaters / Fans
 
-
-##DATA LOGGING
-* TEMP
+### Data Logging
+* Temperature
 * PH
 * ORP
 * Condactivity
