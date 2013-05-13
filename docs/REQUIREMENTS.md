@@ -1,6 +1,5 @@
 ## Initial Requirements
 
-
 ### Lighting Control
 * Unlimited led Channels
 * Simulate sunrise/setset
