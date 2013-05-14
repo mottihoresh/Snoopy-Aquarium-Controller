@@ -1266,3 +1266,10 @@ ul.icons-ul > li .icon-li {
 .icon-share-sign:before {
   content: "\f14d";
 }
+
+li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"] {
+display: inline-block;
+width: 1.25em;
+text-align: center;
+}
+

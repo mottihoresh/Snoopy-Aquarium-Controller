@@ -1,0 +1,141 @@
+
+@-moz-keyframes ringing {
+	0% {
+		-moz-transform: rotate(-15deg);
+	}
+	2% {
+		-moz-transform: rotate(15deg);
+	}
+	4% {
+		-moz-transform: rotate(-18deg);
+	}
+	6% {
+		-moz-transform: rotate(18deg);
+	}
+	8% {
+		-moz-transform: rotate(-22deg);
+	}
+	10% {
+		-moz-transform: rotate(22deg);
+	}
+	12% {
+		-moz-transform: rotate(-18deg);
+	}
+	14% {
+		-moz-transform: rotate(18deg);
+	}
+	16% {
+		-moz-transform: rotate(-12deg);
+	}
+	18% {
+		-moz-transform: rotate(12deg);
+	}
+	20% {
+		-moz-transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes ringing {
+	0% {
+		-webkit-transform: rotate(-15deg);
+	}
+	2% {
+		-webkit-transform: rotate(15deg);
+	}
+	4% {
+		-webkit-transform: rotate(-18deg);
+	}
+	6% {
+		-webkit-transform: rotate(18deg);
+	}
+	8% {
+		-webkit-transform: rotate(-22deg);
+	}
+	10% {
+		-webkit-transform: rotate(22deg);
+	}
+	12% {
+		-webkit-transform: rotate(-18deg);
+	}
+	14% {
+		-webkit-transform: rotate(18deg);
+	}
+	16% {
+		-webkit-transform: rotate(-12deg);
+	}
+	18% {
+		-webkit-transform: rotate(12deg);
+	}
+	20% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+@-ms-keyframes ringing {
+	0% {
+		-ms-transform: rotate(-15deg);
+	}
+	2% {
+		-ms-transform: rotate(15deg);
+	}
+	4% {
+		-ms-transform: rotate(-18deg);
+	}
+	6% {
+		-ms-transform: rotate(18deg);
+	}
+	8% {
+		-ms-transform: rotate(-22deg);
+	}
+	10% {
+		-ms-transform: rotate(22deg);
+	}
+	12% {
+		-ms-transform: rotate(-18deg);
+	}
+	14% {
+		-ms-transform: rotate(18deg);
+	}
+	16% {
+		-ms-transform: rotate(-12deg);
+	}
+	18% {
+		-ms-transform: rotate(12deg);
+	}
+	20% {
+		-ms-transform: rotate(0deg);
+	}
+}
+@keyframes ringing {
+	0% {
+		transform: rotate(-15deg);
+	}
+	2% {
+		transform: rotate(15deg);
+	}
+	4% {
+		transform: rotate(-18deg);
+	}
+	6% {
+		transform: rotate(18deg);
+	}
+	8% {
+		transform: rotate(-22deg);
+	}
+	10% {
+		transform: rotate(22deg);
+	}
+	12% {
+		transform: rotate(-18deg);
+	}
+	14% {
+		transform: rotate(18deg);
+	}
+	16% {
+		transform: rotate(-12deg);
+	}
+	18% {
+		transform: rotate(12deg);
+	}
+	20% {
+		transform: rotate(0deg);
+	}
+}
