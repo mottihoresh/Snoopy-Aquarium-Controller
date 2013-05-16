@@ -1,5 +1,11 @@
+/*Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+
+
 body {
 	padding-top:45px;
+	font-family: 'Didact Gothic', sans-serif;
 }
 
 /*Top Navigation */
@@ -151,7 +157,7 @@ text-decoration: none;
 line-height: 36px;
 color: #585858;
 text-shadow: none!important;
-font-size: 13px;
+font-size: 16px;
 }
 
 .nav-list>li.active {
@@ -177,13 +183,19 @@ margin: 0;
 
 
 
+.testbox {
+	width:100px;
+	height:100px;
+	display:block;
+	-webkit-animation: test 2.0s infinite ease 1.0s;
+}
 
 .icon-animated-bell {
 	display: inline-block;
 	-moz-animation: ringing 2.0s infinite ease 1.0s;
 	-ms-animation: ringing 2.0s infinite ease 1.0s;
-	-webkit-animation: ringing 2.0s infinite ease 1.0s;
-	animation: ringing 2.0s infinite ease 1.0s;
+	-webkit-animation: test 2.0s infinite ease 1.0s;
+	animation: test 2.0s infinite ease 1.0s;
 	-moz-transform-origin: 50% 0;
 	-webkit-transform-origin: 50% 0;
 	-ms-transform-origin: 50% 0;

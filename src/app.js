@@ -3,7 +3,7 @@ var Light = require('./lib/Light.js'),
 	webServer = require('./webServer.js')
 	;
 
-
+console.log('started');
 
 
 // console.log('hi :)');
