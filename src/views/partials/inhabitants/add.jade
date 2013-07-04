@@ -1,0 +1,51 @@
+//- add.jade
+
+h1 I want to add:
+a.btn.btn-large Fish 
+a.btn.btn-large Coral
+
+div.btn-group
+	button.btn Fish
+	button.btn Coral
+
+
+div.tabbable
+	ul.nav.nav-tabs
+		li.active
+			a(href="#tab1", data-toggle="tab") Section1
+		li
+			a(href="#tab2", data-toggle="tab") Section2
+	div.tab-content
+		div#tab1.tab-pane.active
+			p I'm in section 1
+		div#tab2.tab-pane
+			p I'm in section 2
+
+
+
+
+
+
+form(action="/upload", method="post", enctype="multipart/form-data").form-horizontal 
+
+
+	input(type="hidden", name="queryType", value="addInhabitant")
+
+	div.control-group
+		div.contols
+			input(name="name", placeholder="Inhabitant Name",type="text")
+	
+	div.contols
+		input(name="species", placeholder="Scientific Name",type="text")
+
+	div.contols
+		div(data-provides="fileupload").fileupload.fileupload-new.span4
+			div(style="width: 200px; height: 150px;").fileupload-preview.thumbnail 
+			div
+				span.btn.btn-file
+					span.fileupload-new Select Image
+					span.fileupload-exists Change
+					input(type="file", name="thumbnail")
+				a(href="#", data-dismiss="fileupload").btn.fileupload-exists Remove
+
+	input(type="submit") 
