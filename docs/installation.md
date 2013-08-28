@@ -17,6 +17,7 @@ sudo apt-get install nodejs
 
 
 sqlite3
+
 npm install sqlite3
 
 
